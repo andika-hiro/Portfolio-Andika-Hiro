@@ -1,0 +1,486 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d7d7d7;
+}
+.kontak {
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #d7d7d7;
+  border-radius: 50px;
+  margin-block-end: 10px;
+}
+a {
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #212529;
+  text-decoration: none;
+}
+
+.skill {
+  width: 100%;
+  height: 1200px;
+}
+
+.logo-skills {
+  width: 98px;
+  height: 162px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.logo-skills:hover {
+  transform: scale(1.1);
+}
+.nama-logo {
+  font-size: 20px;
+}
+.margin-top {
+  margin-top: 97px;
+}
+.spacing-letter {
+  letter-spacing: 8px;
+}
+.aboutme {
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 200;
+}
+.skill-page {
+  width: 50%;
+  margin-top: 125px;
+}
+.space-logo {
+  margin-left: 162px;
+}
+.skill-title {
+  width: 250px;
+  height: 80px;
+  border: 6px solid black;
+  letter-spacing: 8px;
+  padding-left: 50px;
+  padding-top: 15px;
+  margin-left: 270px;
+}
+.aboutme-page {
+  width: 70%;
+  margin-left: 50px;
+  padding-top: 45px;
+  color: #d7d7d7;
+}
+.logo-page {
+  width: 40%;
+}
+.profile {
+  overflow: hidden;
+  height: 650px;
+}
+.bstrp {
+  letter-spacing: 3px;
+}
+.kolom1 {
+  width: 50%;
+}
+.profile-picture {
+  transition: all 0.8s ease-in-out;
+}
+.profile-picture:hover {
+  transform: scale(1.1);
+}
+.nama {
+  margin-top: 50px;
+}
+.kolom2 {
+  width: 50%;
+  height: 643px;
+  background: linear-gradient(to top, #0e0d12, #212529);
+  padding-top: 69px;
+  padding-left: 90px;
+  overflow: hidden;
+}
+.kotak {
+  width: 45px;
+  height: 45px;
+  background-color: #c4c4c4;
+  box-shadow: 2px 1px 0px grey;
+  padding-top: 8px;
+  padding-left: 8px;
+  transition: all 0.4s ease-in-out;
+}
+.kotak:hover {
+  background-color: grey;
+  transform: scale(1.1);
+}
+.solidbox {
+  height: 313px;
+  background-color: #1d1d1d;
+  overflow: hidden;
+}
+.sosmed {
+  margin-top: 80px;
+  height: 45px;
+  width: 100%;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.caption {
+  color: #909090;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+h4 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.left-profile {
+  height: 20%;
+}
+.introduction {
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+.project {
+  height: 350px;
+  background-color: #1d1d1d;
+  overflow: hidden;
+}
+footer {
+  text-align: center;
+  height: 200px;
+  padding-top: 10%;
+  overflow: hidden;
+  background-color: #d8e3e7;
+}
+
+.copyright {
+  font-size: 14px;
+}
+.project {
+  color: #d7d7d7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-image {
+  width: 400px;
+  height: 150px;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  padding: 5px;
+  z-index: 2;
+
+  margin-top: 30px;
+  cursor: pointer;
+
+  -webkit-filter: grayscale(6%);
+}
+
+.gambar {
+  display: flex;
+  width: 320px;
+  overflow: hidden;
+}
+.project-image:hover {
+  -webkit-filter: grayscale(50%);
+  cursor: pointer;
+}
+
+.project-image2 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  padding: 5px;
+  z-index: 1;
+
+  margin-top: 30px;
+  cursor: pointer;
+  -webkit-filter: grayscale(6%);
+}
+
+.project-image2:hover {
+  -webkit-filter: grayscale(50%);
+  cursor: pointer;
+}
+
+.myproject {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-weight: bolder;
+  z-index: 2;
+}
+
+.pattern {
+  opacity: 20%;
+  z-index: 1;
+}
+
+.liburancap {
+  position: absolute;
+  z-index: 3;
+}
+
+.image-project {
+  display: flex;
+  justify-content: space-between;
+}
+.next {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.project-image3 {
+  width: 100px;
+  height: 200px;
+}
+
+.mockup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.mockup1 {
+  width: 600px;
+  height: 600px;
+}
+
+.keluar {
+  margin-left: 60rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  body {
+    width: auto;
+    float: none;
+  }
+  .skill {
+    flex-direction: column;
+    width: 100%;
+    background-color: #d7d7d7;
+    height: auto;
+  }
+
+  .logoit {
+    width: 0%;
+    height: 0%;
+  }
+
+  .skill-page {
+    width: 100%;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d7d7d7;
+    height: auto;
+  }
+
+  .logo {
+    flex-direction: column;
+  }
+  .skill-title {
+    width: 250px;
+    height: 80px;
+    border: 6px solid black;
+    letter-spacing: 8px;
+    padding-left: 50px;
+    padding-top: 15px;
+    margin-left: 0%;
+  }
+
+  .space-logo {
+    margin: 0%;
+  }
+
+  .kolom1 {
+    width: 100%;
+    padding-top: 10rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  .kolom2 {
+    width: 0%;
+    height: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+  }
+  .logo-page {
+    width: 0%;
+  }
+  .aboutme {
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 200;
+  }
+  .solidbox {
+    background-color: #1d1d1d;
+    height: fit-content;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    overflow: hidden;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .introduction {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .nama {
+    margin-top: 30px;
+  }
+
+  .profile {
+    background-image: url("/img/profile-bg.png");
+  }
+
+  .caption {
+    color: #c1c1c1;
+  }
+  footer {
+    text-align: center;
+    height: 200px;
+    padding-top: 30%;
+    overflow: hidden;
+    background-color: #d8e3e7;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+  .project {
+    color: #d7d7d7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .project-image {
+    width: 400px;
+    height: 150px;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    padding: 5px;
+    z-index: 2;
+
+    margin-top: 30px;
+    cursor: pointer;
+
+    -webkit-filter: grayscale(6%);
+  }
+
+  .gambar {
+    display: flex;
+    width: 320px;
+    overflow: hidden;
+  }
+  .project-image:hover {
+    -webkit-filter: grayscale(50%);
+    cursor: pointer;
+  }
+
+  .project-image2 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    padding: 5px;
+    z-index: 1;
+
+    margin-top: 30px;
+    cursor: pointer;
+    -webkit-filter: grayscale(6%);
+  }
+
+  .project-image2:hover {
+    -webkit-filter: grayscale(50%);
+    cursor: pointer;
+  }
+
+  .myproject {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-weight: bolder;
+    z-index: 2;
+  }
+
+  .pattern {
+    opacity: 20%;
+    z-index: 1;
+  }
+
+  .liburancap {
+    position: absolute;
+    z-index: 3;
+  }
+
+  .image-project {
+    display: flex;
+    justify-content: space-between;
+  }
+  .next {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+
+  .project-image3 {
+    width: 100px;
+    height: 200px;
+  }
+
+  .mockup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+  .mockup1 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .keluar {
+    margin-left: 0rem;
+    cursor: pointer;
+  }
+}
